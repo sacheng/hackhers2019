@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Oppy the Rover </title>
+		<link rel = "icon" href = "images/icon.jpg">
+		<link rel="stylesheet" href = "main.css">
+
+		<!-- Materialize vvv -->
+		<!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	    <!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	    <!--Import Google Icon Font-->
+     	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <!-- Materialize ^^^ --> 
+
+	</head>
+
+	<body>
+		<h4 id = "heading">
+			Hello, my name is Oppy!
+		</h4>
+		<div class = "oppy" id = "oppyFade">
+			<img src = "images/oppy.png">
+		</div>
+
+		<div>
+	 		<div id = "batteryLow">
+				<a class="btn-floating btn-large waves-effect waves-light red darken-1">
+					<i class="material-icons">battery_alert</i>
+				</a>
+			</div>
+
+			<div id = "bringHerBack">
+				<a class="btn-floating btn-large waves-effect waves-light green darken-1">
+					<i class="material-icons">battery_charging_full</i>
+				</a>
+			</div>
+
+			<div class = "audioBar" >
+				<audio controls>
+					<source src = "seeing_you.mp3" type = "audio/mpeg">
+						Your browser does not support the audio element.
+				</audio>
+			</div>
+      	</div>
+
+
+		<script src = "main.js"></script>
+	</body>
+</html>

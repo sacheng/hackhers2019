@@ -1,0 +1,45 @@
+body {
+	background-image: url("images/mars_background.jpg");
+	background-size: cover;
+	overflow:hidden;
+}
+
+.lowBatScreen {
+	background-image:url();
+	background-color: black;
+}
+
+#heading {
+	padding-left:20px;
+}
+
+.oppy img {
+	height:45%;
+	width:45%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.audioBar {
+	padding:10px;
+	float:right;
+	position:absolute;
+	right:10px;
+	bottom:10px;
+}
+
+#batteryLow {
+	float:left;
+	padding:10px;
+	position:absolute;
+	bottom:10px;
+}
+
+#bringHerBack {
+	padding:10px;
+	float:left;
+	position:absolute;
+	bottom:10px;
+	left:80px;
+}
